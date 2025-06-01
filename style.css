@@ -1,0 +1,201 @@
+*{
+    font-family: Montserrat;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+.nvb-color{
+    background-color: #1B1D26;
+}
+li.nav-item a{
+    color: #ffff;
+}
+
+.logo{
+    color: #ffff !important;
+    font-size: 32px !important;
+    padding-left: 158px;
+}
+
+.btn-navbar{
+    background-color: #ffff !important;
+    border-color: #ffff;
+}
+.btn-navegacao{
+    padding-left: 17%;
+}
+.fonte-navbar{
+    font-size: 20px;
+}
+
+@media(max-width:650px){
+    .logo{
+        text-align: center !important;
+        margin: auto 40%;
+        padding: 0;
+    }
+    .index-mensagem{
+        font-size: 16px !important;
+        padding: 0 !important;
+    }
+    #foto_carros_estaciodados{
+        width: 478px;
+        background-color: #fff;
+        margin-top: 0 !important;
+    }
+
+}
+@media(max-width:800px){
+    .index-mensagem{
+        font-size: 24px !important;
+        padding: 0 !important;
+    }
+    #foto_carros_estaciodados{
+        width: 478px;
+    }
+}
+@media(max-width:991px){
+    .logo{
+        text-align: center !important;
+        margin: auto 44%;
+        padding: 0;
+    }
+    .index-mensagem{
+        font-size: 18px !important;
+        padding: 0 !important;
+    }
+    .bvi-texto{
+        background-color: #D9D9D9;
+        max-height: 517px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    .btn-index-mensagem p{
+        font-size: 18px !important;
+        max-height: 317px;
+        margin-top: 20px;
+        padding: 0;
+    }
+    #nav-baricollapse{
+        justify-content: center;
+    }
+}
+
+@media(max-width:1199px){
+    .index-mensagem{
+        font-size: 18px !important;
+        padding: 0 !important;
+    }
+    .bvi-texto{
+        background-color: #D9D9D9;
+        max-height: 517px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    .btn-index-mensagem p{
+        font-size: 18px !important;
+        max-height: 317px;
+        margin-top: 20px;
+        padding: 0;
+    }
+}
+
+
+
+.bvi-div{
+    width: 100%;
+}
+
+.bvi-texto{
+    background-color: #D9D9D9;
+    min-height: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.index-mensagem{
+    font-size: 36px;
+    padding: 0 !important;
+}
+.btn-index-mensagem{
+    size: 100%;
+}
+.btn-index-mensagem{
+    font-size: 36px;
+    max-height: 317px;
+    padding: 0;
+}
+.div-index-boa-vinda{
+    margin-top: 5%;
+}
+
+.primeiro-fundo-carousel{
+    background-color: #212226;
+}
+.segundo-fundo-carrosel{
+    background-color: #D9D9D9;
+    width: 500px;
+    height:335px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#p-index-carousel{
+    margin-top: 12%;
+}
+
+.foto-carousel {
+    max-width: 71px !important;
+    height: 78px;
+    padding: 24px 0 0 24px;
+}
+
+.fundo-avaliacao{
+    background-color: #D9D9D9;
+    width: 500px;
+    height:335px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+div.matheus-medico{
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 335px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: inline-block;
+    
+}
+
+.carousel-item{
+    margin: 0 auto;
+}
+
+.descricao{
+    display: inline-block;
+    margin: auto auto;
+    padding-left: 35px;
+    text-align: left;
+}
+.nome-avaliacao{
+    margin-left: 142px;
+}
