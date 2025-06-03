@@ -142,6 +142,13 @@ li.nav-item a{
 .primeiro-fundo-carousel{
     background-color: #212226;
 }
+
+@media(min-width:1920px){
+    .primeiro-fundo-carousel{
+        background-color: #212226;
+        min-height: 895px;
+    }
+}
 .segundo-fundo-carrosel{
     background-color: #D9D9D9;
     width: 500px;
@@ -159,7 +166,7 @@ li.nav-item a{
 .foto-carousel {
     max-width: 71px !important;
     height: 78px;
-    padding: 24px 0 0 24px;
+    padding: 0;
 }
 
 .fundo-avaliacao{
@@ -173,7 +180,7 @@ li.nav-item a{
     -o-border-radius: 20px;
 }
 
-div.matheus-medico{
+div.bloco{
     background-color: #D9D9D9;
     width: 500px;
     height: 335px;
@@ -197,5 +204,12 @@ div.matheus-medico{
     text-align: left;
 }
 .nome-avaliacao{
-    margin-left: 142px;
+    font-size: 24px;
+    margin: 10% 0 0 15%; 
+    /*margin-left: 142px*/
+}
+
+footer{
+    background-color: #302E2E;
+    height: 48px;
 }
