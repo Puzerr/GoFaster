@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');</style>
+</head>
+<body class="h-100 d-flex flex-column">
+    <!--------------Navbar------------->
+    <header>
+        <nav class="navbar navbar-expand-lg nvb-color" id="navbar-top" style="min-height: 85px;">
+            <div class="container-fluid logo">
+                <!--Logo-->
+                <a class="logo navbar-brand " href="../index.html">GoFaster</a>
+                <button class="btn btn-navbar navbar-toggler" type="button" type="button" data-bs-toggle="collapse" data-bs-target="#navegacao" aria-controls="navegacao" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Outras navegações-->
+                <div class="collapse navbar-collapse btn-navegacao fonte-navbar" id="navegacao">
+                    <ul class="navbar-nav column-gap-5" id="nav-baricollapse">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./sobre.html">SOBRE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PORTFÓLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicos.html">SERVIÇOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">CONTATO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--------------Localização cards-------------->
+        <p class="fs-1 text-center mt-5">Portfólio</p>
+        <p class="fs-3 text-center mt-5"><b>Onde estamos</b></p>
+        <br><br>
+        <div class="container w-xl-50 w-sm-100 mt-5">
+            <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-1 d-flex justify-content-center">
+                <div class="col w-xxl-25 mb-md-4" >
+                    <img src="../images/images_portfolio/sao_paulo_capital_img.png" class="bloco-portfolio d-block mx-auto" alt="Foto São Paulo">
+                    <p class="fs-4 text-center mx-auto bloco-portfolio" >São Paulo - SP</p>
+                    <button type="button" class="btn btn-primary bloco-portfolio d-block mx-auto" data-bs-toggle="modal" data-bs-target="#sao-paulo-modal">Ver localização</button>
+                </div>
+                <div class="col w-xxl-25 mb-sm-5" >
+                    <img src="../images/images_portfolio/rio_de_janeiro_capital_img.png" class="bloco-portfolio d-block mx-auto" alt="Foto Rio de Janeiro">
+                    <p class="fs-4 text-center mx-auto bloco-portfolio" >Rio de Janeiro -RJ</p>
+                    <button type="button" class="btn btn-primary bloco-portfolio d-block mx-auto" data-bs-toggle="modal" data-bs-target="#rio-de-janeiro-modal">Ver localização</button>
+                </div>
+                <div class="col w-xxl-25 mb-sm-5" >
+                    <img src="../images/images_portfolio/brasilia_img.png" class="bloco-portfolio  d-block mx-auto" alt="Foto Brasília">
+                    <p class="fs-4 text-center mx-auto bloco-portfolio" >Brasília -DF</p>
+                    <button type="button" class="btn btn-primary bloco-portfolio d-block mx-auto" data-bs-toggle="modal" data-bs-target="#brasilia-modal">Ver localização</button>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-1 d-flex justify-content-center">
+                <div class="col w-xxl-25 mb-sm-5" >
+                    <img src="../images/images_portfolio/belo_horizonte_img.png" class="bloco-portfolio  d-block mx-auto" alt="Foto Belo Horizonte">
+                    <p class="fs-4 text-center mx-auto bloco-portfolio" >Belo Horizonte - MG</p>
+                    <button type="button" class="btn btn-primary bloco-portfolio d-block mx-auto" data-bs-toggle="modal" data-bs-target="#belo-horizonte-modal">Ver localização</button>
+                </div>
+                <div class="col w-xxl-25 mb-sm-5" >
+                    <img src="../images/images_portfolio/salvador_img.png" class="bloco-portfolio  d-block mx-auto" alt="Foto Salvador">
+                    <p class="fs-4 text-center mx-auto bloco-portfolio" >Salvador - BA</p>
+                    <button type="button" class="btn btn-primary bloco-portfolio d-block mx-auto" data-bs-toggle="modal" data-bs-target="#salvador-modal">Ver localização</button>
+                </div>
+                <div class="col w-xxl-25 mb-sm-5" >
+                    <img src="../images/images_portfolio/recife_img.png" class="bloco-portfolio  d-block mx-auto" alt="Foto Recife">
+                    <p class="fs-4 text-center mx-auto bloco-portfolio" >Recife - PE</p>
+                    <button type="button" class="btn btn-primary bloco-portfolio d-block mx-auto" data-bs-toggle="modal" data-bs-target="#recife-modal">Ver localização</button>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-1 d-flex justify-content-center">
+                <div class="col w-xxl-25" >
+                    <img src="../images/images_portfolio/porto_alegre_img.png" class="bloco-portfolio  d-block mx-auto" alt="Foto Porto Alegre">
+                    <p class="fs-4 text-center mx-auto bloco-portfolio" >Porto Alegre - RS</p>
+                    <button type="button" class="btn btn-primary bloco-portfolio d-block mx-auto" data-bs-toggle="modal" data-bs-target="#porto-alegre-modal">Ver localização</button>
+                </div>
+                <div class="col w-xxl-25" >
+                    <img src="../images/images_portfolio/vitoria_img.png" class="bloco-portfolio  d-block mx-auto" alt="Foto Vitória">
+                    <p class="fs-4 text-center mx-auto bloco-portfolio" >Vitória - ES</p>
+                    <button type="button" class="btn btn-primary bloco-portfolio d-block mx-auto" data-bs-toggle="modal" data-bs-target="#vitoria-modal">Ver localização</button>
+                </div>
+                <div class="col w-xxl-25" >
+                    <img src="../images/images_portfolio/goiania_img.png" class="bloco-portfolio  d-block mx-auto" alt="Foto Goiânia">
+                    <p class="fs-4 text-center mx-auto bloco-portfolio" >Goiânia - GO</p>
+                    <button type="button" class="btn btn-primary bloco-portfolio d-block mx-auto" data-bs-toggle="modal" data-bs-target="#goiania-modal">Ver localização</button>
+                </div>
+            </div>
+        </div>
+
+        <!--------------Modal localizações-------------->
+        <div class="modal fade" id="sao-paulo-modal" tabindex="-1" aria-labelledby="label-modal-sao-paulo" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="label-modal-sao-paulo">São Paulo - SP</h3>
+                    </div>
+                    <div class="modal-body w-0">
+                        <p class="fs-6">Bem-vindo a São Paulo, a capital cultural e gastronômica do Brasil! Mergulhe em uma metrópole que nunca dorme, com museus renomados, restaurantes de classe mundial e uma vida noturna agitada. Da icônica Avenida Paulista aos bairros charmosos, aqui você encontra uma energia única e experiências inesquecíveis.</p>
+                        <br>
+                        <p class="fs-6">A nossa unidade fica próxima ao terminal 1 do Aeroporto de Guarulhos.</p>
+                        <hr>
+                        <iframe class="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17413.73886184466!2d-46.480353717959105!3d-23.432036954020354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce8af96f722a25%3A0x8071626c51a7154a!2sAeroporto%20Internacional%20de%20S%C3%A3o%20Paulo%2FGuarulhos%E2%80%93Governador%20Andr%C3%A9%20Franco%20Montoro!5e0!3m2!1spt-BR!2sbr!4v1749337358156!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="rio-de-janeiro-modal" tabindex="-1" aria-labelledby="label-modal-rio-de-janeiro" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="label-modal-rio-de-janeiro">Rio de Janeiro</h3>
+                    </div>
+                    <div class="modal-body w-0">
+                        <p class="fs-6">Conhecida como a Cidade Maravilhosa, o Rio de Janeiro deslumbra com sua união perfeita entre montanhas e mar. Lar de ícones mundiais como o Cristo Redentor e o Pão de Açúcar, a cidade vibra com a energia das praias de Copacabana e Ipanema ao som do samba.</p>
+                        <br>
+                        <p class="fs-6">A nossa unidade fica na área externa no Aeroporto do Galeão.</p>
+                        <hr>
+                        <iframe class="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12370.260989588443!2d-43.25393087626664!3d-22.813555480166308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99798f3b16364f%3A0xcfa9dfbf2f584512!2sAeroporto%20Internacional%20do%20Rio%20de%20Janeiro%20-%20Gale%C3%A3o%20%E2%80%93%20Antonio%20Carlos%20Jobim!5e0!3m2!1spt-BR!2sbr!4v1749337401769!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="brasilia-modal" tabindex="-1" aria-labelledby="label-modal-brasilia" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="label-modal-rio-de-janeiro">Brasília</h3>
+                    </div>
+                    <div class="modal-body w-0">
+                        <p class="fs-6">Brasília, a capital planejada do Brasil, é um Patrimônio Mundial da UNESCO e um museu de arquitetura a céu aberto. Admire as obras icônicas de Oscar Niemeyer, como a Catedral e o Congresso Nacional, dispostas em seu inovador plano em forma de avião e contemple seu famoso céu.</p>
+                        <br>
+                        <p class="fs-6">A nossa unidade fica na área externa no Aeroporto Internacional de Brasília.</p>
+                        <hr>
+                        <iframe class="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7675.463676436393!2d-47.9219286884712!3d-15.870685324776428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2582bb6d2b43%3A0xbeebe30930ee8750!2sAeroporto%20Internacional%20de%20Bras%C3%ADlia%20-%20Presidente%20Juscelino%20Kubitschek!5e0!3m2!1spt-BR!2sbr!4v1749336299417!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade" id="belo-horizonte-modal" tabindex="-1" aria-labelledby="label-modal-belo-horizonte" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="label-modal-belo-horizonte">Belo Horizonte</h3>
+                    </div>
+                    <div class="modal-body w-0">
+                        <p class="fs-6">Conhecida como a "capital dos bares", Belo Horizonte é um convite à boa mesa e à hospitalidade mineira. Explore o vibrante Mercado Central e o conjunto arquitetônico da Pampulha, obra de Oscar Niemeyer. Rodeada pela Serra do Curral, a cidade oferece cultura rica e sabores inesquecíveis.</p>
+                        <br>
+                        <p class="fs-6">A nossa unidade fica na área externa no Aeroporto de Belo Horizonte.</p>
+                        <hr>
+                        <iframe class="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6311.369227637641!2d-43.955188273102884!3d-19.84999559649774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690731ea996e3%3A0xb8a6656cb6eb90bc!2sAeroporto%20de%20Belo%20Horizonte%2FPampulha-MG%20-%20Carlos%20Drummond%20de%20Andrade!5e0!3m2!1spt-BR!2sbr!4v1749336654581!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="salvador-modal" tabindex="-1" aria-labelledby="label-modal-salvador" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="label-modal-rio-de-janeiro">Salvador</h3>
+                    </div>
+                    <div class="modal-body w-0">
+                        <p class="fs-6">Salvador, a primeira capital do Brasil, é o coração vibrante da cultura afro-brasileira. Perca-se pelas ruas coloridas do Pelourinho, um Patrimônio da Humanidade, ao som contagiante do axé. Saboreie um acarajé autêntico e sinta a energia única que faz da cidade a capital da alegria.
+                        </p>
+                        <br>
+                        <p class="fs-6">A nossa unidade fica na área externa no Aeroporto Internacional de Salvador.</p>
+                        <hr>
+                        <iframe class="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13080.551801148373!2d-38.33658015057666!3d-12.915991221990769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161625d209fc53%3A0x86ba3d30122b8d76!2sAeroporto%20Internacional%20de%20Salvador%20Lu%C3%ADs%20Eduardo%20Magalh%C3%A3es!5e0!3m2!1spt-BR!2sbr!4v1749336758122!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="recife-modal" tabindex="-1" aria-labelledby="label-modal-recife" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="label-modal-recife">Recife</h3>
+                    </div>
+                    <div class="modal-body w-0">
+                        <p class="fs-6">Conhecida como a "Veneza Brasileira", Recife é uma cidade cortada por rios e pontes. Explore o charme do Recife Antigo, com seus casarões coloridos e vibrante vida cultural. Mergulhe nas piscinas naturais da praia de Boa Viagem e sinta a energia contagiante do frevo e do maracatu.
+                        </p>
+                        <br>
+                        <p class="fs-6">A nossa unidade fica na área externa no Aeroporto Internacional de Recife.</p>
+                        <hr>
+                        <iframe class="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13285.27083200024!2d-34.92839921626102!3d-8.128475099722696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1e310230b959%3A0x6bcba1dcbb220871!2sAeroporto%20Internacional%20do%20Recife%2FGuararapes%20-%20Gilberto%20Freyre!5e0!3m2!1spt-BR!2sbr!4v1749336998838!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="porto-alegre-modal" tabindex="-1" aria-labelledby="label-modal-porto-alegre" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="label-modal-recife">Porto Alegre</h3>
+                    </div>
+                    <div class="modal-body w-0">
+                        <p class="fs-6">Porto Alegre, a capital gaúcha às margens do Lago Guaíba, é famosa por seu pôr do sol espetacular. Viva a cultura local compartilhando um chimarrão na orla revitalizada, explore seus parques arborizados e saboreie o autêntico churrasco. Uma metrópole que combina natureza e forte tradição.
+                        </p>
+                        <br>
+                        <p class="fs-6">A nossa unidade fica na área externa no Aeroporto Internacional de Porto Alegre.</p>
+                        <hr>
+                        <iframe class="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11622.713683359578!2d-51.18112443694142!3d-29.995133441502166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519775afc8a359f%3A0xc999a14760dd538f!2sAeroporto%20Internacional%20de%20Porto%20Alegre%20-%20Salgado%20Filho!5e0!3m2!1spt-BR!2sbr!4v1749337185500!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="vitoria-modal" tabindex="-1" aria-labelledby="label-modal-vitoria" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="label-modal-recife">Vitória</h3>
+                    </div>
+                    <div class="modal-body w-0">
+                        <p class="fs-6">Localizada em uma bela ilha, Vitória é cercada pelas águas da baía e conectada ao continente por pontes, incluindo a icônica Terceira Ponte. Desfrute de suas praias urbanas, como Camburi, e explore o centro histórico. Não deixe de provar a autêntica moqueca capixaba, o prato símbolo local.
+                        </p>
+                        <br>
+                        <p class="fs-6">A nossa unidade fica na área externa no Aeroporto Vitória.</p>
+                        <hr>
+                        <iframe class="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12589.608647488181!2d-40.283397595075215!3d-20.262440745949526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81842f9876a0d%3A0xb60191750aaaa62a!2sAeroporto%20de%20Vit%C3%B3ria%20Eurico%20de%20Aguiar%20Salles!5e0!3m2!1spt-BR!2sbr!4v1749337293597!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="goiania-modal" tabindex="-1" aria-labelledby="label-modal-goiania" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="label-modal-recife">Goiânia</h3>
+                    </div>
+                    <div class="modal-body w-0">
+                        <p class="fs-6">Conhecida como a capital verde do Brasil, Goiânia é uma cidade planejada que surpreende por seus parques e praças arborizadas. É o berço da música sertaneja, com uma vida noturna vibrante e culinária rica. Descubra seu charmoso acervo de arquitetura Art Déco e a hospitalidade goiana.
+                        </p>
+                        <br>
+                        <p class="fs-6">A nossa unidade fica na área externa no Aeroporto Internacional Santa Genoveva.</p>
+                        <hr>
+                        <iframe class="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10812.80638018172!2d-49.21947932310596!3d-16.631564610153866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef25eb0aaaaab%3A0xd4189ab0a8f00570!2sAeroporto%20Internacional%20Santa%20Genoveva!5e0!3m2!1spt-BR!2sbr!4v1749337501950!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="container w-sm-100 mt-5">
+            <p class="fs-3 my-5 text-center"><b>Nosso diferencial</b></p>
+            <div class="row row-col-1 justify-content-center mx-auto">
+                <div class="col-3 cols-xl-2 d-none d-xl-inline-block justify-content-center ms-4">
+                    <img src="../images/images_portfolio/mercedes_carro.png" 
+                    class="bloco-portfolio d-block" alt="Carro Mercedes">
+                </div>
+                <div class="col-5 col-lg-6 bg-secondary-subtle rounded-3">
+                    <p class="pt-4 px-4 fs-5">
+                        <b>Exclusividade</b>
+                        <br> 
+                        Ao contratar nossos serviços, nossos veículos particulares irão ao seu encontro, prontos para levá-los até a porta do veículos escolhido em conforto e segurança.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row row-cols-1 d-flex justify-content-center mx-auto ">
+                <div class="col-5 col-lg-6 bg-secondary-subtle rounded-3 ms" >
+                    <p class="pt-4 px-4 fs-5">
+                        <b>Disponibilidade </b>
+                        <br> 
+                        A GoFaster está disponível para você e sua família a qualquer momento nos aeroportos de todas as capitais do Brasil. 24 horas por dia, 7 dias por semana.
+                    </p>
+                </div>
+                <div class="col-3 d-none d-xl-inline-block">
+                    <img src="../images/images_portfolio/horario_celular.png" 
+                    class="bloco-portfolio d-block mx-auto" alt="Olhando horas no celular">
+                </div>
+            </div>
+            <hr>
+            <div class="row row-col-1 d-flex justify-content-center mx-auto">
+                <div class="col-3 cols-xl-2 d-none d-xl-inline-block justify-content-center ms-4">
+                    <img src="../images/images_portfolio/lavagem_carro.png" alt="Limpeza interna de carro" class="bloco-portfolio d-block">
+                </div>
+                <div class="col-5 col-lg-6 bg-secondary-subtle rounded-3">
+                    <p class="pt-4 px-4 fs-5">
+                        <b>Higiene</b>
+                        <br> 
+                        Todos os veículos são higienizado horas antes da entrega, resultando em uma experiencia limpa, e, acima de tudo, segura para você.
+                    </p>
+                </div>
+
+            </div>
+            <hr>
+            <div class="row row-cols-1 d-flex justify-content-center mx-auto ">
+                <div class="col-5 col-lg-6 bg-secondary-subtle rounded-3 ms" >
+                    <p class="pt-4 px-4 fs-5">
+                        <b>Diversidade  </b>
+                        <br> 
+                        A GoFaster possui uma frota de veículos sofisticada. Desde modelos mais simples até os mais luxuosos que se encaixam no gosto de cada um.
+                    </p>
+                </div>
+                <div class="col-3 d-none d-xl-inline-block">
+                    <img src="../images/images_portfolio/carros_estacionamento.png" 
+                    class="bloco-portfolio d-block mx-auto" alt="Carros estacionados">
+                </div>
+            </div>
+            <hr>
+            <div class="row row-col-1 d-flex justify-content-center mx-auto">
+                <div class="col-3 cols-xl-2 d-none d-xl-inline-block justify-content-center ms-4">
+                    <img src="../images/images_portfolio/compra_carro.png" alt="Limpeza interna de carro" class="bloco-portfolio d-block">
+                </div>
+                <div class="col-5 col-lg-6 bg-secondary-subtle rounded-3">
+                    <p class="pt-4 px-4 fs-5">
+                        <b>Praticidade</b>
+                        <br> 
+                        As nossas relações são transparentes. Sem enrolação e demora. Rápido e prático. Basta apenas escolher o carro que deseja e assim que chegar ao seu destino ele estará disponível preparado para ti.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </main>
+
+    <!--------------Botão voltar ao topo------------->
+    <div class="d-flex flex-row-reverse position-fixed fixed-bottom mb-5 pe-none">
+        <button class="btn w-0 me-5 mb-5 align-items-right pe-auto">
+            <a class="text-decoration-none text-light text-center fs-5" href="#navbar-top">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-primary" width="66" height="66" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+                </svg>
+            </a>
+        </button>
+    </div>
+
+    <!--------------Footer-------------->
+    <footer class="d-flex w-100 position-relative justify-content-between align-items-center px-3 mb-0" style="background-color: #302E2E;">
+        <div class="d-flex gap-4 align-items-center">
+            <p class="text-light d-inline pt-3 text-start">Projeto com fins educacionais não comerciais</p>
+        </div>
+        <div class="d-flex gap-4">
+            <a class="text-decoration-none pt-0 text-light d-inline" href="paginas\sobre.html">Sobre nós</a>
+            <a class="text-decoration-none pt-0 text-light d-inline" href="paginas\contato.html">Contato</a>
+            <a href="https://www.instagram.com/raphael.universo/" target="_parent" class="p-auto" alt="Pefil-Instagram"> 
+                <svg xmlns="http://www.w3.org/2000/svg" style="color:#fff" width="26" height="26" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+            </a>
+            <a href="https://wa.me/qr/PBZ54HOHC3D2C1" target="_parent" class="p-auto" alt="Pefil-Whatsapp">
+                <svg xmlns="http://www.w3.org/2000/svg" style="color:#fff" width="26" height="26" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                </svg>
+            </a>
+            <a href="https://github.com/Puzerr" target="_parent" class="p-auto" alt="Perfil-GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" style="color:#fff" width="26" height="26" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
+            </a>
+        </div>
+    </footer>
+
+    <!-------------Script------------->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+</body>
+</html>

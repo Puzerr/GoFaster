@@ -2,12 +2,13 @@
     font-family: Montserrat;
 }
 
+
 body{
     background-color: #f2f2f2;
 }
 
 .nvb-color{
-    background-color: #1B1D26;
+    background-color: #1B1D26 !important;
 }
 li.nav-item a{
     color: #ffff;
@@ -205,11 +206,41 @@ div.bloco{
 }
 .nome-avaliacao{
     font-size: 24px;
-    margin: 10% 0 0 15%; 
-    /*margin-left: 142px*/
+    margin: 10% 0 0 10%; 
 }
 
 footer{
     background-color: #302E2E;
-    height: 48px;
+    min-height: 57px;
+    padding: 0 1rem;
 }
+
+#comentario-formulario{
+    resize: none;
+    height: 150px;
+}
+
+@media(min-width:992px){
+    #div-formulario{
+        width: 50% !important;
+    }
+}
+@media(min-width:1200px){
+    #div-formulario{
+        max-width: 30% !important;
+    }
+}
+
+.bloco-portfolio{
+    width: 250px;
+}
+
+.borda{
+    border: 1px solid black;
+}
+
+.mapa-google{
+    width: 460px;
+    height: 460px;
+}
+
